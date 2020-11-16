@@ -1,24 +1,56 @@
-// Specific CSS for your home-page
+// general
+
+.container {
+  width: 90%;
+}
+
+.subtitle {
+  color: $royalblue;
+}
+
 .categories {
-  background-image: -webkit-linear-gradient(to right bottom, #f78f2a, #faab2f, #fac63c, #f7e151, #f3fb6b);
-  background-image: linear-gradient(to right bottom, #f78f2a, #faab2f, #fac63c, #f7e151, #f3fb6b);
-  color:transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: $darkblue;
 }
 
-p {
-  background: linear-gradient(to right bottom, #f78f2a, #faab2f, #fac63c, #f7e151, #f3fb6b);
-}
 
-// .title-box {
-  // background: linear-gradient(to right bottom, #f78f2a, #faab2f, #fac63c, #f7e151, #f3fb6b);;
-  // width: 50%;
-  // border-radius: 4%;
-  // /* -webkit-box-shadow: 3px 3px 15px -4px rgba(0,0,0,0.81); */
-  // box-shadow: 3px 3px 15px -4px $light-yellow;
-// }
+// banner
+
 .banner {
+  background-color: $darkblue;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner .container {
+  display: flex;
+  justify-content: center;
+}
+
+.title-content {
+  color: $lightgray;
+  border-left: 4px solid $royalblue;
+  padding-left: 16px;
+}
+
+.title-box {
+  text-align: start;
+  background-color: rgba(0,0,0,0.35);
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+}
+
+
+// about
+
+
+.about {
+  margin: 40px 0;
+}
+
+.about-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,22 +58,16 @@ p {
   font: 40px;
 }
 
+.pitch {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 6rem;
+  font-size: large;
+}
+
 .profile-picture {
   vertical-align: middle;
   border-style: none;
   box-shadow: 8px 8px 15px -4px lightgray;
   border-radius: 4px;
-}
-
-.subtitle {
-  opacity: 70%;
-}
-
-.container {
-  width: 90%;
-}
-
-.title-box {
-  text-align: end;
-  // padding-right: 20px;
 }

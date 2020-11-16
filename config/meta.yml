@@ -1,0 +1,5 @@
+meta_product_name: "Timothee Regis - Fullstack Web Developer"
+meta_title: "Timothee Regis"
+meta_description: "Freelance web developer using ruby on rails & javascript, let's collaborate!"
+meta_image: "lewagon_fb_dims.png" # should exist in `app/assets/images/`
+#twitter_account: ""   # required for Twitter Cards

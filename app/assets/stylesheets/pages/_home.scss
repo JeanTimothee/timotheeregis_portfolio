@@ -142,3 +142,12 @@ text-align: center;
 .portfolio {
   margin-top: 40px;
 }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-indicators {
+  filter: invert(1);
+}

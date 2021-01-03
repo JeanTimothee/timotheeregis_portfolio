@@ -9,16 +9,22 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <%= image_tag('gom_mockup.png', class: "d-block w-100", alt: "First slide") %>
-          <!-- <img class="d-block w-100" src="" alt="First slide"> -->
+          <%= link_to('https://thegom.herokuapp.com/', target: :_blank) do %>
+            <%= image_tag('gom_mockup.png', class: "d-block w-100", alt: "First slide") %>
+            <!-- <img class="d-block w-100" src="" alt="First slide"> -->
+          <% end %>
         </div>
         <div class="carousel-item">
-          <%= image_tag('bdtroc_mockup.png', class: "d-block w-100", alt: "Second slide") %>
-          <!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
+          <%= link_to('https://bdtroc.herokuapp.com/', target: :_blank) do %>
+            <%= image_tag('bdtroc_mockup.png', class: "d-block w-100", alt: "Second slide") %>
+            <!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
+          <% end %>
         </div>
         <div class="carousel-item">
-          <%= image_tag('lineup_mockup.png', class: "d-block w-100", alt: "Third slide") %>
-          <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
+          <%= link_to('https://www.lineuptrade.com/', target: :_blank) do %>
+            <%= image_tag('lineup_mockup.png', class: "d-block w-100", alt: "Third slide") %>
+            <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
+          <% end %>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -29,6 +35,6 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-</div>
+    </div>
   </div>
 </div>

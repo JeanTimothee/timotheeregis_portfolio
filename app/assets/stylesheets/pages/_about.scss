@@ -1,0 +1,26 @@
+.about {
+  margin: 40px 0;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 0px;
+  font: 40px;
+}
+
+.pitch {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 6rem;
+  font-size: large;
+}
+
+.profile-picture {
+  width: 40vw;
+  vertical-align: middle;
+  border-style: none;
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
